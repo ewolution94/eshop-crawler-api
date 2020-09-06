@@ -10,7 +10,7 @@ module.exports = {
   exits: {},
 
   fn: async function () {
-    var result = await getGamesEurope();
+    var result = await getGamesEurope({ limit: 10 });
     console.log("action called");
     return result;
   },
