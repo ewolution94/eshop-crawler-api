@@ -10,5 +10,7 @@
 
 module.exports.routes = {
   "/": { view: "pages/homepage" },
-  "GET /api/v1/eshop/get-games-europe": { action: "eshop/get-games-europe" },
+  "GET /api/v1/eshop/get-games-europe": {
+    action: "eshop/get-games-europe",
+  },
 };
